@@ -1,0 +1,900 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".StraightCablingHandsOn">
+
+    <ScrollView
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        android:id="@+id/scrollView">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <!-- RJ-45 A  (T-568B) -->
+
+            <TextView
+                android:id="@+id/txRJ45Aindicator"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="30dp"
+                android:text="RJ-45 A (T-568B)"
+                android:layout_marginBottom="10dp"
+                tools:layout_editor_absoluteX="43dp"
+                tools:layout_editor_absoluteY="52dp"
+                android:textSize="20dp"/>
+
+            <HorizontalScrollView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="10dp"
+                    android:orientation="horizontal">
+
+                    <LinearLayout
+                        style="@style/CablePinLinearLayout">
+
+                        <TextView
+                            android:id="@+id/tvRJA1"
+                            android:text="1"
+                            style="@style/CablePinTesterTextView"
+                            android:textAlignment="center" />
+
+                        <ImageView
+                            android:id="@+id/ivRJA1"
+                            style="@style/CablePinTesterImageView"
+                            app:srcCompat="@drawable/black" />
+
+                        <Spinner
+                            android:id="@+id/sRJA1"
+                            style="@style/CablePinTesterSpinner"
+                            android:entries="@array/cableColors" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        style="@style/CablePinLinearLayout">
+
+                        <TextView
+                            android:id="@+id/tvRJA2"
+                            android:text="2"
+                            style="@style/CablePinTesterTextView"
+                            android:textAlignment="center" />
+
+                        <ImageView
+                            android:id="@+id/ivRJA2"
+                            style="@style/CablePinTesterImageView"
+                            app:srcCompat="@drawable/black" />
+
+                        <Spinner
+                            android:id="@+id/sRJA2"
+                            style="@style/CablePinTesterSpinner"
+                            android:entries="@array/cableColors" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        style="@style/CablePinLinearLayout">
+
+                        <TextView
+                            android:id="@+id/tvRJA3"
+                            android:text="3"
+                            style="@style/CablePinTesterTextView"
+                            android:textAlignment="center" />
+
+                        <ImageView
+                            android:id="@+id/ivRJA3"
+                            style="@style/CablePinTesterImageView"
+                            app:srcCompat="@drawable/black" />
+
+                        <Spinner
+                            android:id="@+id/sRJA3"
+                            style="@style/CablePinTesterSpinner"
+                            android:entries="@array/cableColors" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        style="@style/CablePinLinearLayout">
+
+                        <TextView
+                            android:id="@+id/tvRJA4"
+                            android:text="4"
+                            style="@style/CablePinTesterTextView"
+                            android:textAlignment="center" />
+
+                        <ImageView
+                            android:id="@+id/ivRJA4"
+                            style="@style/CablePinTesterImageView"
+                            app:srcCompat="@drawable/black" />
+
+                        <Spinner
+                            android:id="@+id/sRJA4"
+                            style="@style/CablePinTesterSpinner"
+                            android:entries="@array/cableColors" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        style="@style/CablePinLinearLayout">
+
+                        <TextView
+                            android:id="@+id/tvRJA5"
+                            android:text="5"
+                            style="@style/CablePinTesterTextView"
+                            android:textAlignment="center" />
+
+                        <ImageView
+                            android:id="@+id/ivRJA5"
+                            style="@style/CablePinTesterImageView"
+                            app:srcCompat="@drawable/black" />
+
+                        <Spinner
+                            android:id="@+id/sRJA5"
+                            style="@style/CablePinTesterSpinner"
+                            android:entries="@array/cableColors" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        style="@style/CablePinLinearLayout">
+
+                        <TextView
+                            android:id="@+id/tvRJA6"
+                            android:text="6"
+                            style="@style/CablePinTesterTextView"
+                            android:textAlignment="center" />
+
+                        <ImageView
+                            android:id="@+id/ivRJA6"
+                            style="@style/CablePinTesterImageView"
+                            app:srcCompat="@drawable/black" />
+
+                        <Spinner
+                            android:id="@+id/sRJA6"
+                            style="@style/CablePinTesterSpinner"
+                            android:entries="@array/cableColors" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        style="@style/CablePinLinearLayout">
+
+                        <TextView
+                            android:id="@+id/tvRJA7"
+                            android:text="7"
+                            style="@style/CablePinTesterTextView"
+                            android:textAlignment="center" />
+
+                        <ImageView
+                            android:id="@+id/ivRJA7"
+                            style="@style/CablePinTesterImageView"
+                            app:srcCompat="@drawable/black" />
+
+                        <Spinner
+                            android:id="@+id/sRJA7"
+                            style="@style/CablePinTesterSpinner"
+                            android:entries="@array/cableColors" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        style="@style/CablePinLinearLayout">
+
+                        <TextView
+                            android:id="@+id/tvRJA8"
+                            android:text="8"
+                            style="@style/CablePinTesterTextView"
+                            android:textAlignment="center" />
+
+                        <ImageView
+                            android:id="@+id/ivRJA8"
+                            style="@style/CablePinTesterImageView"
+                            app:srcCompat="@drawable/black" />
+
+                        <Spinner
+                            android:id="@+id/sRJA8"
+                            style="@style/CablePinTesterSpinner"
+                            android:entries="@array/cableColors" />
+                    </LinearLayout>
+
+                    <Button
+                        android:id="@+id/btnCrimpingToolA"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="Crimp" />
+
+                    <ImageView
+                        android:id="@+id/ivCrimpingToolA"
+                        style="@style/CableCrimpedImageView"
+                        app:srcCompat="@drawable/crimpingtool"
+                        android:visibility="gone"/>
+                </LinearLayout>
+            </HorizontalScrollView>
+
+            <!-- RJ-45 B (T-568B) -->
+
+            <TextView
+                android:id="@+id/txRJ45Bindicator"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:text="RJ-45 B (T-568B)"
+                android:layout_marginBottom="10dp"
+                tools:layout_editor_absoluteX="43dp"
+                tools:layout_editor_absoluteY="52dp"
+                android:textSize="20dp"/>
+
+            <HorizontalScrollView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="10dp"
+                    android:orientation="horizontal">
+
+                    <LinearLayout
+                        style="@style/CablePinLinearLayout">
+
+                        <TextView
+                            android:id="@+id/tvRJB1"
+                            android:text="1"
+                            style="@style/CablePinTesterTextView"
+                            android:textAlignment="center" />
+
+                        <ImageView
+                            android:id="@+id/ivRJB1"
+                            style="@style/CablePinTesterImageView"
+                            app:srcCompat="@drawable/black" />
+
+                        <Spinner
+                            android:id="@+id/sRJB1"
+                            style="@style/CablePinTesterSpinner"
+                            android:entries="@array/cableColors" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        style="@style/CablePinLinearLayout">
+
+                        <TextView
+                            android:id="@+id/tvRJB2"
+                            android:text="2"
+                            style="@style/CablePinTesterTextView"
+                            android:textAlignment="center" />
+
+                        <ImageView
+                            android:id="@+id/ivRJB2"
+                            style="@style/CablePinTesterImageView"
+                            app:srcCompat="@drawable/black" />
+
+                        <Spinner
+                            android:id="@+id/sRJB2"
+                            style="@style/CablePinTesterSpinner"
+                            android:entries="@array/cableColors" />
+                    </LinearLayout>
+                    <LinearLayout
+                        style="@style/CablePinLinearLayout">
+
+                        <TextView
+                            android:id="@+id/tvRJB3"
+                            android:text="3"
+                            style="@style/CablePinTesterTextView"
+                            android:textAlignment="center" />
+
+                        <ImageView
+                            android:id="@+id/ivRJB3"
+                            style="@style/CablePinTesterImageView"
+                            app:srcCompat="@drawable/black" />
+
+                        <Spinner
+                            android:id="@+id/sRJB3"
+                            style="@style/CablePinTesterSpinner"
+                            android:entries="@array/cableColors" />
+                    </LinearLayout>
+                    <LinearLayout
+                        style="@style/CablePinLinearLayout">
+
+                        <TextView
+                            android:id="@+id/tvRJB4"
+                            android:text="4"
+                            style="@style/CablePinTesterTextView"
+                            android:textAlignment="center" />
+
+                        <ImageView
+                            android:id="@+id/ivRJB4"
+                            style="@style/CablePinTesterImageView"
+                            app:srcCompat="@drawable/black" />
+
+                        <Spinner
+                            android:id="@+id/sRJB4"
+                            style="@style/CablePinTesterSpinner"
+                            android:entries="@array/cableColors" />
+                    </LinearLayout>
+
+
+                    <LinearLayout
+                        style="@style/CablePinLinearLayout">
+
+                        <TextView
+                            android:id="@+id/tvRJB5"
+                            android:text="5"
+                            style="@style/CablePinTesterTextView"
+                            android:textAlignment="center" />
+
+                        <ImageView
+                            android:id="@+id/ivRJB5"
+                            style="@style/CablePinTesterImageView"
+                            app:srcCompat="@drawable/black" />
+
+                        <Spinner
+                            android:id="@+id/sRJB5"
+                            style="@style/CablePinTesterSpinner"
+                            android:entries="@array/cableColors" />
+                    </LinearLayout>
+                    <LinearLayout
+                        style="@style/CablePinLinearLayout">
+
+                        <TextView
+                            android:id="@+id/tvRJB6"
+                            android:text="6"
+                            style="@style/CablePinTesterTextView"
+                            android:textAlignment="center" />
+
+                        <ImageView
+                            android:id="@+id/ivRJB6"
+                            style="@style/CablePinTesterImageView"
+                            app:srcCompat="@drawable/black" />
+
+                        <Spinner
+                            android:id="@+id/sRJB6"
+                            style="@style/CablePinTesterSpinner"
+                            android:entries="@array/cableColors" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        style="@style/CablePinLinearLayout">
+
+                        <TextView
+                            android:id="@+id/tvRJB7"
+                            android:text="7"
+                            style="@style/CablePinTesterTextView"
+                            android:textAlignment="center" />
+
+                        <ImageView
+                            android:id="@+id/ivRJB7"
+                            style="@style/CablePinTesterImageView"
+                            app:srcCompat="@drawable/black" />
+
+                        <Spinner
+                            android:id="@+id/sRJB7"
+                            style="@style/CablePinTesterSpinner"
+                            android:entries="@array/cableColors" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        style="@style/CablePinLinearLayout">
+
+                        <TextView
+                            android:id="@+id/tvRJB8"
+                            android:text="8"
+                            style="@style/CablePinTesterTextView"
+                            android:textAlignment="center" />
+
+                        <ImageView
+                            android:id="@+id/ivRJB8"
+                            style="@style/CablePinTesterImageView"
+                            app:srcCompat="@drawable/black" />
+
+                        <Spinner
+                            android:id="@+id/sRJB8"
+                            style="@style/CablePinTesterSpinner"
+                            android:entries="@array/cableColors" />
+                    </LinearLayout>
+
+                    <Button
+                        android:id="@+id/btnCrimpingToolB"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="Crimp" />
+
+                    <ImageView
+                        android:id="@+id/ivCrimpingToolB"
+                        style="@style/CableCrimpedImageView"
+                        app:srcCompat="@drawable/crimpingtool"
+                        android:visibility="gone" />
+                </LinearLayout>
+            </HorizontalScrollView>
+
+            <!-- Tester Frame -->
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:background="#333"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="50dp"
+                android:padding="10dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/textView4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="TESTER (RJ45 + RJ11)"
+                        android:textColor="#FFF"
+                        android:layout_marginBottom="10dp"
+                        android:layout_marginRight="10dp"/>
+
+                    <Button
+                        android:id="@+id/btnTest"
+                        android:layout_width="50dp"
+                        android:layout_height="30dp"
+                        android:text="TEST"
+                        android:textSize="10dp"
+                        android:enabled="false"/>
+
+                    <ImageView
+                        android:id="@+id/ledTester"
+                        android:layout_marginTop="5dp"
+                        android:layout_width="30dp"
+                        android:layout_height="20dp"
+                        app:srcCompat="@drawable/tled_ia" />
+
+
+                </LinearLayout>
+
+                <!-- Tester Lane for First RJ45 -->
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <LinearLayout
+                        android:layout_width="40dp"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical"
+                        android:layout_marginRight="5dp"
+                        android:layout_marginLeft="20dp">
+
+                        <TextView
+                            android:layout_marginTop="20dp"
+                            android:id="@+id/tvTAG"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="A"
+                            android:textColor="#FFF"/>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="20dp"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical"
+                        android:layout_marginRight="5dp">
+
+                        <TextView
+                            android:id="@+id/tvTA1"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="1"
+                            android:textAlignment="center"
+                            android:textColor="#FFF"/>
+
+                        <ImageView
+                            android:id="@+id/ivLEDA1"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            app:srcCompat="@drawable/tled_ia" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="20dp"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical"
+                        android:layout_marginRight="5dp">
+
+                        <TextView
+                            android:id="@+id/tvTA2"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="2"
+                            android:textAlignment="center"
+                            android:textColor="#FFF"/>
+
+                        <ImageView
+                            android:id="@+id/ivLEDA2"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            app:srcCompat="@drawable/tled_ia" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="20dp"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical"
+                        android:layout_marginRight="5dp">
+
+                        <TextView
+                            android:id="@+id/tvTA3"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="3"
+                            android:textAlignment="center"
+                            android:textColor="#FFF"/>
+
+                        <ImageView
+                            android:id="@+id/ivLEDA3"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            app:srcCompat="@drawable/tled_ia" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="20dp"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical"
+                        android:layout_marginRight="5dp">
+
+                        <TextView
+                            android:id="@+id/tvTA4"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="4"
+                            android:textAlignment="center"
+                            android:textColor="#FFF"/>
+
+                        <ImageView
+                            android:id="@+id/ivLEDA4"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            app:srcCompat="@drawable/tled_ia" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="20dp"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical"
+                        android:layout_marginRight="5dp">
+
+                        <TextView
+                            android:id="@+id/tvTA5"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="5"
+                            android:textAlignment="center"
+                            android:textColor="#FFF"/>
+
+                        <ImageView
+                            android:id="@+id/ivLEDA5"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            app:srcCompat="@drawable/tled_ia" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="20dp"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical"
+                        android:layout_marginRight="5dp">
+
+                        <TextView
+                            android:id="@+id/tvTA6"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="6"
+                            android:textAlignment="center"
+                            android:textColor="#FFF"/>
+
+                        <ImageView
+                            android:id="@+id/ivLEDA6"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            app:srcCompat="@drawable/tled_ia" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="20dp"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical"
+                        android:layout_marginRight="5dp">
+
+                        <TextView
+                            android:id="@+id/tvTA7"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="7"
+                            android:textAlignment="center"
+                            android:textColor="#FFF"/>
+
+                        <ImageView
+                            android:id="@+id/ivLEDA7"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            app:srcCompat="@drawable/tled_ia" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="20dp"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical"
+                        android:layout_marginRight="5dp">
+
+                        <TextView
+                            android:id="@+id/tvTA8"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="8"
+                            android:textAlignment="center"
+                            android:textColor="#FFF"/>
+
+                        <ImageView
+                            android:id="@+id/ivLEDA8"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            app:srcCompat="@drawable/tled_ia" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="20dp"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical"
+                        android:layout_marginRight="5dp">
+
+                        <TextView
+                            android:id="@+id/tvTAG"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="G"
+                            android:textAlignment="center"
+                            android:textColor="#FFF"/>
+
+                        <ImageView
+                            android:id="@+id/ivLEDAG"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            app:srcCompat="@drawable/tled_ia" />
+                    </LinearLayout>
+
+
+                </LinearLayout>
+
+                <!-- Tester Lane for Second RJ45 -->
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <LinearLayout
+                        android:layout_width="40dp"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical"
+                        android:layout_marginRight="5dp"
+                        android:layout_marginLeft="20dp">
+
+                        <TextView
+                            android:layout_marginTop="20dp"
+                            android:id="@+id/tvTBG"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="B"
+                            android:textColor="#FFF"/>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="20dp"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical"
+                        android:layout_marginRight="5dp">
+
+                        <TextView
+                            android:id="@+id/tvTB1"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="1"
+                            android:textAlignment="center"
+                            android:textColor="#FFF"/>
+
+                        <ImageView
+                            android:id="@+id/ivLEDB1"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            app:srcCompat="@drawable/tled_ia" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="20dp"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical"
+                        android:layout_marginRight="5dp">
+
+                        <TextView
+                            android:id="@+id/tvTB2"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="2"
+                            android:textAlignment="center"
+                            android:textColor="#FFF"/>
+
+                        <ImageView
+                            android:id="@+id/ivLEDB2"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            app:srcCompat="@drawable/tled_ia" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="20dp"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical"
+                        android:layout_marginRight="5dp">
+
+                        <TextView
+                            android:id="@+id/tvTB3"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="3"
+                            android:textAlignment="center"
+                            android:textColor="#FFF"/>
+
+                        <ImageView
+                            android:id="@+id/ivLEDB3"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            app:srcCompat="@drawable/tled_ia" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="20dp"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical"
+                        android:layout_marginRight="5dp">
+
+                        <TextView
+                            android:id="@+id/tvTB4"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="4"
+                            android:textAlignment="center"
+                            android:textColor="#FFF"/>
+
+                        <ImageView
+                            android:id="@+id/ivLEDB4"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            app:srcCompat="@drawable/tled_ia" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="20dp"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical"
+                        android:layout_marginRight="5dp">
+
+                        <TextView
+                            android:id="@+id/tvTB5"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="5"
+                            android:textAlignment="center"
+                            android:textColor="#FFF"/>
+
+                        <ImageView
+                            android:id="@+id/ivLEDB5"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            app:srcCompat="@drawable/tled_ia" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="20dp"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical"
+                        android:layout_marginRight="5dp">
+
+                        <TextView
+                            android:id="@+id/tvTB6"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="6"
+                            android:textAlignment="center"
+                            android:textColor="#FFF"/>
+
+                        <ImageView
+                            android:id="@+id/ivLEDB6"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            app:srcCompat="@drawable/tled_ia" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="20dp"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical"
+                        android:layout_marginRight="5dp">
+
+                        <TextView
+                            android:id="@+id/tvTB7"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="7"
+                            android:textAlignment="center"
+                            android:textColor="#FFF"/>
+
+                        <ImageView
+                            android:id="@+id/ivLEDB7"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            app:srcCompat="@drawable/tled_ia" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="20dp"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical"
+                        android:layout_marginRight="5dp">
+
+                        <TextView
+                            android:id="@+id/tvTB8"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="8"
+                            android:textAlignment="center"
+                            android:textColor="#FFF"/>
+
+                        <ImageView
+                            android:id="@+id/ivLEDB8"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            app:srcCompat="@drawable/tled_ia" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="20dp"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical"
+                        android:layout_marginRight="5dp">
+
+                        <TextView
+                            android:id="@+id/tvTBG"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="G"
+                            android:textAlignment="center"
+                            android:textColor="#FFF"/>
+
+                        <ImageView
+                            android:id="@+id/ivLEDBG"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            app:srcCompat="@drawable/tled_ia" />
+                    </LinearLayout>
+
+                </LinearLayout>
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".WrongCabling">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_margin="10dp"
+            >
+
+            <pl.droidsonroids.gif.GifImageView
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:src="@drawable/wrong_cabling"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Wrong Cabling!"
+                android:textAlignment="center"
+                android:textSize="40dp"
+                android:singleLine="true"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Possible Reasons:"
+                android:textAlignment="center"
+                android:textSize="20dp"
+                android:layout_marginTop="20dp"
+                android:singleLine="true"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="10dp">
+
+                <ImageView
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    app:srcCompat="@drawable/cautionlogo"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="SOME CABLES UNPINNED! This results in loss of data upon being transferred making the conncetion unreliable."
+                    android:singleLine="false"
+                    android:paddingLeft="10dp"
+                    android:textSize="22dp"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="10dp">
+
+                <ImageView
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    app:srcCompat="@drawable/cautionlogo"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="NON-PRECISE CABLING! The order of the cables are not even memorized leading to an improperly ordered crimped cables."
+                    android:singleLine="false"
+                    android:justificationMode="inter_word"
+                    android:paddingLeft="10dp"
+                    android:textSize="22dp"/>
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="10dp">
+
+                <ImageView
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    app:srcCompat="@drawable/cautionlogo"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="OVERLOOKED PINS! The pins / some of the pins have not been seen if crimped properly (real-life) or forgot to assign a colored cable to a pin resulting in a connection loss in the pin on the other RJ-45."
+
+                    android:singleLine="false"
+                    android:justificationMode="inter_word"
+                    android:paddingLeft="10dp"
+                    android:textSize="22dp"/>
+
+            </LinearLayout>
+
+
+            <Button
+                android:id="@+id/finishAct"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="200dp"
+                android:layout_weight="1"
+                android:text="Go Back!"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                />
+
+        </LinearLayout>
+    </ScrollView>
+</android.support.constraint.ConstraintLayout>

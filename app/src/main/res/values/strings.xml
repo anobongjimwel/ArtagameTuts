@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">ArtagameTuts</string>
+    <string-array name="cableColors">
+        <item>NA</item>
+        <item>Brn</item>
+        <item>WBrn</item>
+        <item>O</item>
+        <item>WO</item>
+        <item>Blu</item>
+        <item>WBlu</item>
+        <item>G</item>
+        <item>WG</item>
+    </string-array>
+</resources>
