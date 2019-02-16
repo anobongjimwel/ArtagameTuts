@@ -600,7 +600,8 @@ public class StraightCablingHandsOn extends AppCompatActivity {
     }
     
     private boolean preciseCabling(CableTester pinA, CableTester pinB) {
-        if (pinA.getCableColor().equals(pinB.getCableColor())) {
+        if (pinA.getCableColor().equals(pinB.getCableColor()) &&
+                !pinA.getCableColor().equals("NA")) {
             return true;
         } else {
             return false;

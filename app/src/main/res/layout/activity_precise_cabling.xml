@@ -5,6 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".PreciseCabling">
+
     <ScrollView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
@@ -13,9 +14,8 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:orientation="vertical"
             android:layout_margin="10dp"
-            >
+            android:orientation="vertical">
 
             <pl.droidsonroids.gif.GifImageView
                 android:layout_width="match_parent"
@@ -25,124 +25,122 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:singleLine="true"
                 android:text="Almost there!"
                 android:textAlignment="center"
-                android:textSize="40dp"
-                android:singleLine="true"/>
+                android:textSize="40dp" />
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:singleLine="true"
                 android:text="Achieved:"
                 android:textAlignment="center"
-                android:textSize="20dp"
-                android:layout_marginTop="20dp"
-                android:singleLine="true"/>
+                android:textSize="20dp" />
 
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:orientation="horizontal"
-                android:layout_marginTop="10dp">
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal">
 
                 <ImageView
                     android:layout_width="30dp"
                     android:layout_height="30dp"
-                    app:srcCompat="@drawable/checklogo"/>
+                    app:srcCompat="@drawable/checklogo" />
 
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="Proper order of cable colors"
-                    android:singleLine="false"
                     android:paddingLeft="10dp"
-                    android:textSize="22dp"/>
+                    android:singleLine="false"
+                    android:text="Proper order of cable colors"
+                    android:textSize="22dp" />
 
             </LinearLayout>
 
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:orientation="horizontal"
-                android:layout_marginTop="10dp">
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal">
 
                 <ImageView
                     android:layout_width="30dp"
                     android:layout_height="30dp"
-                    app:srcCompat="@drawable/checklogo"/>
+                    app:srcCompat="@drawable/checklogo" />
 
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="Precisely made"
-                    android:singleLine="false"
                     android:paddingLeft="10dp"
-                    android:textSize="22dp"/>
+                    android:singleLine="false"
+                    android:text="Precisely made"
+                    android:textSize="22dp" />
 
             </LinearLayout>
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:singleLine="true"
                 android:text="However:"
                 android:textAlignment="center"
-                android:textSize="20dp"
-                android:layout_marginTop="20dp"
-                android:singleLine="true"/>
+                android:textSize="20dp" />
 
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:orientation="horizontal"
-                android:layout_marginTop="10dp">
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal">
 
                 <ImageView
                     android:layout_width="30dp"
                     android:layout_height="30dp"
-                    app:srcCompat="@drawable/cautionlogo"/>
+                    app:srcCompat="@drawable/cautionlogo" />
 
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:paddingLeft="10dp"
+                    android:singleLine="false"
                     android:text="Not following proper order or colors may lead to cable's efficiency to lessen."
-                    android:singleLine="false"
-                    android:paddingLeft="10dp"
-                    android:textSize="22dp"/>
+                    android:textSize="22dp" />
 
             </LinearLayout>
 
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:orientation="horizontal"
-                android:layout_marginTop="10dp">
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal">
 
                 <ImageView
                     android:layout_width="30dp"
                     android:layout_height="30dp"
-                    app:srcCompat="@drawable/cautionlogo"/>
+                    app:srcCompat="@drawable/cautionlogo" />
 
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="Distance constraint for these cable may be possible less than 100 meters due to not following proper colors resulting in disarrangment of twisted cable pairs inside the patch cable."
-                    android:singleLine="false"
                     android:paddingLeft="10dp"
-                    android:textSize="22dp"/>
+                    android:singleLine="false"
+                    android:text="Distance constraint for these cable may be possible less than 100 meters due to not following proper colors resulting in disarrangment of twisted cable pairs inside the patch cable."
+                    android:textSize="22dp" />
 
             </LinearLayout>
-
 
 
             <Button
                 android:id="@+id/finishAct"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
                 android:layout_marginTop="20dp"
                 android:layout_marginBottom="200dp"
                 android:layout_weight="1"
-                android:text="Go Back!"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                />
+                android:text="Go Back!" />
         </LinearLayout>
     </ScrollView>
 </android.support.constraint.ConstraintLayout>
