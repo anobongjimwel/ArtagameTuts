@@ -1,5 +1,8 @@
 package dnzartjim.artagametuts;
 
+import android.content.res.Resources;
+import android.graphics.Bitmap;
+import android.graphics.BitmapFactory;
 import android.util.Log;
 import android.widget.ImageView;
 import android.widget.Spinner;
@@ -7,20 +10,22 @@ import android.widget.Spinner;
 public class CableTester {
     private Spinner cableChooser;
     private ImageView LEDindicator;
-    private int activeLED = R.drawable.tled_a;
-    private int inactiveLED = R.drawable.tled_ia;
+    Bitmap activeLEDbtmp;
+    Bitmap inactiveLEDbtmp;
     public CableTester(final Spinner cableChooser, final ImageView LEDindicator) {
         this.cableChooser = cableChooser;
         this.LEDindicator = LEDindicator;
+        activeLEDbtmp = BitmapFactory.decodeResource(cableChooser.getContext().getResources(), R.drawable.tled_a);
+        inactiveLEDbtmp = BitmapFactory.decodeResource(cableChooser.getContext().getResources(), R.drawable.tled_ia);
     }
 
 
     public void activateLED() {
-        LEDindicator.setImageResource(activeLED);
+        LEDindicator.setImageBitmap(activeLEDbtmp);
     }
 
     public void deactivateLED() {
-        LEDindicator.setImageResource(inactiveLED);
+        LEDindicator.setImageBitmap(inactiveLEDbtmp);
     }
 
     public String getCableColor() {

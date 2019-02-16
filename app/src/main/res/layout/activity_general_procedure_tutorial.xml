@@ -92,6 +92,103 @@
                 android:text="Do the same thing on the other side."
                 android:textSize="18dp" />
 
+            <!-- 4 -->
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="15dp"
+                android:text="4. Arrange the paired cables inside"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="40dp"
+                android:singleLine="false"
+                android:text="There are two types of cabling a patch cable, Straight Through and Crossover. Please refer to the other tutorials here in order to see how straight through and crossover cabling are done."
+                android:textSize="18dp" />
+
+            <!-- 5 -->
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="15dp"
+                android:text="5. Put cables inside RJ-45"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <VideoView
+                android:id="@+id/vvPutIntoRJ45"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_marginBottom="5dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="40dp"
+                android:singleLine="false"
+                android:text="Hold the cables inside the patch cable based on the order of the cabling type you are going to make. Do make sure that the cables are reaching the pins inside the RJ-45."
+                android:textSize="18dp" />
+
+            <!-- 6 -->
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="15dp"
+                android:text="6. Crimp both sides"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <VideoView
+                android:id="@+id/vvCrimpBothSides"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_marginBottom="5dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="40dp"
+                android:singleLine="false"
+                android:text="Crimp both sides in and make sure the cables inside are making contact with the pins to ensure reliable and legit connection on both sides."
+                android:textSize="18dp" />
+
+            <!-- 7 -->
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="15dp"
+                android:text="7. Test the cable"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <VideoView
+                android:id="@+id/vvTestCable"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_marginBottom="5dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="40dp"
+                android:singleLine="false"
+                android:text="Prepare the tester to be used. Test the cables newly done as soon as you have finished crimping them to make sure they are working."
+                android:textSize="18dp" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="I'm Done"
+                android:id="@+id/btnDone"
+                android:layout_marginBottom="20dp"/>
         </LinearLayout>
     </ScrollView>
 

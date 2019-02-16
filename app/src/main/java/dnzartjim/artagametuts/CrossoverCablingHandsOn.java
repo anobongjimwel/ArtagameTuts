@@ -35,7 +35,7 @@ public class CrossoverCablingHandsOn extends AppCompatActivity {
         sRJA1.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
             @Override
             public void onItemSelected(AdapterView<?> parent, View view, int position, long id) {
-                setCableColorsCorresponds(sRJA1, ivRJA1);
+                CablePainter.paintCable(sRJA1, ivRJA1);
             }
 
             @Override
@@ -49,7 +49,7 @@ public class CrossoverCablingHandsOn extends AppCompatActivity {
         sRJA2.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
             @Override
             public void onItemSelected(AdapterView<?> parent, View view, int position, long id) {
-                setCableColorsCorresponds(sRJA2, ivRJA2);
+                CablePainter.paintCable(sRJA2, ivRJA2);
             }
 
             @Override
@@ -63,7 +63,7 @@ public class CrossoverCablingHandsOn extends AppCompatActivity {
         sRJA3.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
             @Override
             public void onItemSelected(AdapterView<?> parent, View view, int position, long id) {
-                setCableColorsCorresponds(sRJA3, ivRJA3);
+                CablePainter.paintCable(sRJA3, ivRJA3);
             }
 
             @Override
@@ -77,7 +77,7 @@ public class CrossoverCablingHandsOn extends AppCompatActivity {
         sRJA4.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
             @Override
             public void onItemSelected(AdapterView<?> parent, View view, int position, long id) {
-                setCableColorsCorresponds(sRJA4, ivRJA4);
+                CablePainter.paintCable(sRJA4, ivRJA4);
             }
 
             @Override
@@ -91,7 +91,7 @@ public class CrossoverCablingHandsOn extends AppCompatActivity {
         sRJA5.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
             @Override
             public void onItemSelected(AdapterView<?> parent, View view, int position, long id) {
-                setCableColorsCorresponds(sRJA5, ivRJA5);
+                CablePainter.paintCable(sRJA5, ivRJA5);
             }
 
             @Override
@@ -105,7 +105,7 @@ public class CrossoverCablingHandsOn extends AppCompatActivity {
         sRJA6.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
             @Override
             public void onItemSelected(AdapterView<?> parent, View view, int position, long id) {
-                setCableColorsCorresponds(sRJA6, ivRJA6);
+                CablePainter.paintCable(sRJA6, ivRJA6);
             }
 
             @Override
@@ -119,7 +119,7 @@ public class CrossoverCablingHandsOn extends AppCompatActivity {
         sRJA7.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
             @Override
             public void onItemSelected(AdapterView<?> parent, View view, int position, long id) {
-                setCableColorsCorresponds(sRJA7, ivRJA7);
+                CablePainter.paintCable(sRJA7, ivRJA7);
             }
 
             @Override
@@ -133,7 +133,7 @@ public class CrossoverCablingHandsOn extends AppCompatActivity {
         sRJA8.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
             @Override
             public void onItemSelected(AdapterView<?> parent, View view, int position, long id) {
-                setCableColorsCorresponds(sRJA8, ivRJA8);
+                CablePainter.paintCable(sRJA8, ivRJA8);
             }
 
             @Override
@@ -209,7 +209,7 @@ public class CrossoverCablingHandsOn extends AppCompatActivity {
         sRJB1.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
             @Override
             public void onItemSelected(AdapterView<?> parent, View view, int position, long id) {
-                setCableColorsCorresponds(sRJB1, ivRJB1);
+                CablePainter.paintCable(sRJB1, ivRJB1);
             }
 
             @Override
@@ -223,7 +223,7 @@ public class CrossoverCablingHandsOn extends AppCompatActivity {
         sRJB2.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
             @Override
             public void onItemSelected(AdapterView<?> parent, View view, int position, long id) {
-                setCableColorsCorresponds(sRJB2, ivRJB2);
+                CablePainter.paintCable(sRJB2, ivRJB2);
             }
 
             @Override
@@ -237,7 +237,7 @@ public class CrossoverCablingHandsOn extends AppCompatActivity {
         sRJB3.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
             @Override
             public void onItemSelected(AdapterView<?> parent, View view, int position, long id) {
-                setCableColorsCorresponds(sRJB3, ivRJB3);
+                CablePainter.paintCable(sRJB3, ivRJB3);
             }
 
             @Override
@@ -251,7 +251,7 @@ public class CrossoverCablingHandsOn extends AppCompatActivity {
         sRJB4.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
             @Override
             public void onItemSelected(AdapterView<?> parent, View view, int position, long id) {
-                setCableColorsCorresponds(sRJB4, ivRJB4);
+                CablePainter.paintCable(sRJB4, ivRJB4);
             }
 
             @Override
@@ -265,7 +265,7 @@ public class CrossoverCablingHandsOn extends AppCompatActivity {
         sRJB5.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
             @Override
             public void onItemSelected(AdapterView<?> parent, View view, int position, long id) {
-                setCableColorsCorresponds(sRJB5, ivRJB5);
+                CablePainter.paintCable(sRJB5, ivRJB5);
             }
 
             @Override
@@ -279,7 +279,7 @@ public class CrossoverCablingHandsOn extends AppCompatActivity {
         sRJB6.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
             @Override
             public void onItemSelected(AdapterView<?> parent, View view, int position, long id) {
-                setCableColorsCorresponds(sRJB6, ivRJB6);
+                CablePainter.paintCable(sRJB6, ivRJB6);
             }
 
             @Override
@@ -293,7 +293,7 @@ public class CrossoverCablingHandsOn extends AppCompatActivity {
         sRJB7.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
             @Override
             public void onItemSelected(AdapterView<?> parent, View view, int position, long id) {
-                setCableColorsCorresponds(sRJB7, ivRJB7);
+                CablePainter.paintCable(sRJB7, ivRJB7);
             }
 
             @Override
@@ -307,7 +307,7 @@ public class CrossoverCablingHandsOn extends AppCompatActivity {
         sRJB8.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
             @Override
             public void onItemSelected(AdapterView<?> parent, View view, int position, long id) {
-                setCableColorsCorresponds(sRJB8, ivRJB8);
+                CablePainter.paintCable(sRJB8, ivRJB8);
             }
 
             @Override
@@ -546,50 +546,6 @@ public class CrossoverCablingHandsOn extends AppCompatActivity {
     private void enableTester(final Button firstButton, final Button secondButton, final Button testButton) {
         if (firstButton.getVisibility()==View.GONE && secondButton.getVisibility() == View.GONE ) {
             testButton.setEnabled(true);
-        }
-    }
-
-    private void setCableColorsCorresponds(final Spinner spinner, final ImageView imageView) {
-        String cableColor = spinner.getSelectedItem().toString();
-        switch (cableColor) {
-            case "NA":
-                imageView.setImageResource(R.drawable.black);
-                break;
-
-            case "Brn":
-                imageView.setImageResource(R.drawable.brown);
-                break;
-
-            case "WBrn":
-                imageView.setImageResource(R.drawable.whitebrown);
-                break;
-
-            case "G":
-                imageView.setImageResource(R.drawable.green);
-                break;
-
-            case "WG":
-                imageView.setImageResource(R.drawable.whitegreen);
-                break;
-
-            case "O":
-                imageView.setImageResource(R.drawable.orange);
-                break;
-
-            case "WO":
-                imageView.setImageResource(R.drawable.whiteorange);
-                break;
-
-            case "Blu":
-                imageView.setImageResource(R.drawable.blue);
-                break;
-
-            case "WBlu":
-                imageView.setImageResource(R.drawable.whiteblue);
-                break;
-
-            default:
-                break;
         }
     }
 
