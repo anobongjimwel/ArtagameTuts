@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".GeneralProcedureTutorial">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="10dp"
+            android:orientation="vertical"
+            android:padding="10dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="15dp"
+                android:text="1. Preparing the cables"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <VideoView
+                android:id="@+id/vvPreparingCables"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_marginBottom="5dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="15dp"
+                android:singleLine="false"
+                android:text="Of course, we must get something to crimp. We must first get a cable with no RJ-45s in both ends yet. By this time you can decide what kind to cable you can use.\n\nFor beginners, we absolutely recommend using CAT-5 or CAT5-e cable in order to achieve quick de-entangle the paired cables. This kind of cable is perfectly suitable to those who would like to practice quicker and time efficient.\n\nOn the other side, if you'd like to practice with industrial application in mind, you must use CAT-6, CAT-6e, CAT-7 or CAT-7e+ which are designed with longer distances and faster data transfers in mind."
+                android:textSize="18dp" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</android.support.constraint.ConstraintLayout>
