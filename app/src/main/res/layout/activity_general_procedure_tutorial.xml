@@ -20,6 +20,8 @@
             android:orientation="vertical"
             android:padding="10dp">
 
+            <!-- 1 -->
+
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -37,9 +39,57 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginBottom="15dp"
+                android:layout_marginBottom="40dp"
                 android:singleLine="false"
-                android:text="Of course, we must get something to crimp. We must first get a cable with no RJ-45s in both ends yet. By this time you can decide what kind to cable you can use.\n\nFor beginners, we absolutely recommend using CAT-5 or CAT5-e cable in order to achieve quick de-entangle the paired cables. This kind of cable is perfectly suitable to those who would like to practice quicker and time efficient.\n\nOn the other side, if you'd like to practice with industrial application in mind, you must use CAT-6, CAT-6e, CAT-7 or CAT-7e+ which are designed with longer distances and faster data transfers in mind."
+                android:text="Of course, we must get something to crimp. We must first get a cable with no RJ-45s in both ends yet. By this time you can decide what kind to cable you can use.\n\nFor beginners, we absolutely recommend using CAT-5 or CAT5-e cable in order to achieve quick de-entangle the paired cables. This kind of cable is perfectly suitable to those who would like to practice quicker and time efficient.\n\nOn the other side, if you'd like to practice with industrial application in mind, you must use CAT-6, CAT-6e, CAT-7 or CAT-7e+ which are designed with longer distances and faster data transfers in mind. However, these comes with a big white pair separator in the middle which makes it a little harder to arrange."
+                android:textSize="18dp" />
+
+            <!-- 2 -->
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="15dp"
+                android:text="2. Cut the first side"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <VideoView
+                android:id="@+id/vvCutFirstSide"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_marginBottom="5dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="40dp"
+                android:singleLine="false"
+                android:text="Having the cable as freshly got, you may now cut the first side. Please do note that you must only cut the patch cable's coating and not going to include the cables inside the patch cable. Please do with precautions."
+                android:textSize="18dp" />
+
+            <!-- 3 -->
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="15dp"
+                android:text="3. Cut the second side"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <VideoView
+                android:id="@+id/vvCutSecondSide"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_marginBottom="5dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="40dp"
+                android:singleLine="false"
+                android:text="Do the same thing on the other side."
                 android:textSize="18dp" />
 
         </LinearLayout>
