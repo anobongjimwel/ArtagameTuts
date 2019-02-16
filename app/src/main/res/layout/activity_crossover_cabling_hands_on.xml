@@ -22,7 +22,7 @@
             android:layout_height="wrap_content"
             android:orientation="vertical" >
 
-            <!-- RJ-45 A  (T-568B) -->
+            <!-- RJ-45 A  (T-568A/B) -->
 
             <TextView
                 android:id="@+id/txRJ45Aindicator"
@@ -30,7 +30,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="10dp"
                 android:layout_marginTop="30dp"
-                android:text="RJ-45 A (T-568B)"
+                android:text="RJ-45 A (T-568A/B)"
                 android:layout_marginBottom="10dp"
                 tools:layout_editor_absoluteX="43dp"
                 tools:layout_editor_absoluteY="52dp"
@@ -221,14 +221,14 @@
                 </LinearLayout>
             </HorizontalScrollView>
 
-            <!-- RJ-45 B (T-568B) -->
+            <!-- RJ-45 B (T-568A/B) -->
 
             <TextView
                 android:id="@+id/txRJ45Bindicator"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="10dp"
-                android:text="RJ-45 B (T-568B)"
+                android:text="RJ-45 B (T-568A/B)"
                 android:layout_marginBottom="10dp"
                 tools:layout_editor_absoluteX="43dp"
                 tools:layout_editor_absoluteY="52dp"
