@@ -1,3 +1,1 @@
 # artagametuts-andr
-qweqweqweqweq
-werwerwerwe
